@@ -12,7 +12,7 @@ const Home = () => {
         <RiTailwindCssFill className="text-primary opacity-20 absolute -right-16 lg:-right-20 -bottom-16 lg:-bottom-20 z-0 text-[300px] lg:text-[500px]" />
 
         <div className="w-full h-full flex flex-col items-center justify-center gap-5 relative z-10">
-          <h2 className={`${globalStyles.header} text-center`}>
+          <h2 className={`${globalStyles.header3} text-center`}>
             Build Faster with Pre-Designed
             <br /> Components
           </h2>

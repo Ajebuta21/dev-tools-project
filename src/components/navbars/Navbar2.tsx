@@ -58,7 +58,7 @@ const Navbar2 = () => {
     <nav className="w-full h-16 border-b border-primary/10 fixed backdrop-blur z-30">
       <div className="w-full h-full px-5 flex justify-between items-center relative">
         <Link to={`/`} className="text-lg text-primary">
-          REACT UI
+          React UI Kit
         </Link>
         <div className="flex items-center gap-3">
           <DarkModeToggle />
