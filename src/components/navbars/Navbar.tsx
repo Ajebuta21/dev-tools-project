@@ -67,7 +67,7 @@ const Navbar = () => {
           {menu.map((item) => (
             <Link
               key={item.path}
-              className="text-primary w-full p-5 border-b border-primary/10 text-sm"
+              className="text-primary w-full p-5 border-b border-primary/10 text-sm bg-white dark:bg-slate-900 transition-all ease-in-out duration-500"
               to={item.path}
               onClick={() => setIsOpen(false)}
             >
