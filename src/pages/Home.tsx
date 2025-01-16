@@ -3,6 +3,7 @@ import { globalStyles } from "../global/globalStyles";
 import { Link } from "react-router-dom";
 import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
+import SectionTwo from "../components/homeSections/SectionTwo";
 
 const Home = () => {
   return (
@@ -36,6 +37,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <SectionTwo />
     </div>
   );
 };
